@@ -30,9 +30,6 @@
 		  });
 		  return dataToReturn;
 		}
-		 function exportToExcel() {
-            viz.exportCrossTabToExcel();
-        }
 		function exportToCSV() {
             viz.showExportCrossTabDialog();
         }
@@ -75,7 +72,6 @@
             <h1>Get Data Example</h1>
             <button id="getData" onclick="getUnderlyingData()" class="btn" disabled>Download</button>
 			<button onclick="expertToCSV();">Expert To CSV</button>
-			<button onclick="expertToExcel();">Expert To Excel</button>
 		</div>
         <div id="vizContainer" style="width:1000px; height:800px;"></div>
         <div id="dataTarget"></div>
